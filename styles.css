@@ -21,11 +21,15 @@ header {
     padding: 20px;
 }
 
-header h1 {
+h1 {
     font-size: 2.5em;
+    color: white;
 }
 h2 {
   text-align: justify;
+}
+h3 {
+    text-align: justify;
 }
 
 /* Kontainer untuk daftar wisata */
@@ -53,7 +57,7 @@ h2 {
 
 /* Gambar tempat wisata */
 .wisata-item img {
-    width: 500%;
+    width: 100%;
     height: auto;
 
     border-bottom: 3px solid #4CAF50;
@@ -126,7 +130,7 @@ img{
 
 img {
   float: center;
-  clip-path: ellipse(80% 50%);
+  clip-path: ellipse(40% 50%);
   shape-outside: ellipse(45% 50%);
 
 }
